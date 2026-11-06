@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/python-telegram-bot/python-telegram-bot/commit/8dec234225145f8ec0cc8fd97d42208a32d8f0e6",
       "git:hexsha": "8dec234225145f8ec0cc8fd97d42208a32d8f0e6",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/python-telegram-bot/python-telegram-bot/commit/3d4e0500bf6056547bdc5be1cdb881acbbe8d862",

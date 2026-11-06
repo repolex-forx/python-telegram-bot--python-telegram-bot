@@ -1,0 +1,7 @@
+[2026-11-06T06:28:58Z] === AST ITERATION 1 START | repo=python-telegram-bot/python-telegram-bot sha=8dec2342 ===
+[2026-11-06T06:28:58Z] [iter=1] PHASE START: ast repo=python-telegram-bot/python-telegram-bot sha=8dec2342
+[2026-11-06T06:28:58Z] [iter=1] Building AST aggregate chunks
+[2026-11-06T06:31:53Z] [iter=1] AST chunks built count=1 triples=2045346
+[2026-11-06T06:31:53Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/8dec234225145f8ec0cc8fd97d42208a32d8f0e6/.complete
+[2026-11-06T06:31:53Z] [iter=1] PHASE END: ast elapsed_s=175 elapsed_min=2.9
+[2026-11-06T06:31:53Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
