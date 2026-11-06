@@ -1,0 +1,11 @@
+{
+  "org": "python-telegram-bot",
+  "repo": "python-telegram-bot",
+  "versions": [
+    {
+      "commit": "8dec234225145f8ec0cc8fd97d42208a32d8f0e6",
+      "tag": "",
+      "parsed_at": "2026-11-06T06:33:13.471429+00:00"
+    }
+  ]
+}
