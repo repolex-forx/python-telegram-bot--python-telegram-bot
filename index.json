@@ -3,6 +3,11 @@
   "repo": "python-telegram-bot",
   "versions": [
     {
+      "commit": "5a41d2ba85bd10bdb2b2c1047758a317eb091e5e",
+      "tag": "v22.7",
+      "parsed_at": "2026-11-22T12:28:25.931034+00:00"
+    },
+    {
       "commit": "8dec234225145f8ec0cc8fd97d42208a32d8f0e6",
       "tag": "",
       "parsed_at": "2026-11-06T06:33:13.471429+00:00"
