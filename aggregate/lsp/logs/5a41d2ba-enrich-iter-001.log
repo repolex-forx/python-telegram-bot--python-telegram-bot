@@ -1,0 +1,154 @@
+[2026-11-22T07:14:44Z] === ENRICH ITERATION 1 START | repo=python-telegram-bot/python-telegram-bot sha=5a41d2ba ===
+[2026-11-22T07:14:44Z] [iter=1] PHASE START: enrich repo=python-telegram-bot/python-telegram-bot sha=5a41d2ba runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/5a41d2ba-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/5a41d2ba85bd10bdb2b2c1047758a317eb091e5e.nq.gz
+[2026-11-22T07:14:51Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T07:16:01Z] [iter=1] AST store loaded triples=5130873 load_secs=69 mem_mb=961 MB
+[2026-11-22T07:16:01Z] [iter=1] Step 2: Finding LSP targets mem_mb=961 MB
+[2026-11-22T07:16:16Z] [iter=1] LSP targets found call_sites=31596 imports=3174 extends=1016 implements=0 secs=15
+[2026-11-22T07:16:30Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=961 MB
+[2026-11-22T07:16:54Z] [iter=1] Position index built positions=354123 nodes_with_types=450058 secs=23 mem_mb=1031 MB
+[2026-11-22T07:16:54Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1031 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T07:16:54Z] [iter=1] Resolving target type target_type=call_site count=31596
+[2026-11-22T07:16:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=0 resolved=0 errors=0 current=tests/request/test_request.py
+[2026-11-22T07:17:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=1 resolved=70 errors=0 current=tests/ext/test_filters.py
+[2026-11-22T07:18:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.7 files_done=2 resolved=321 errors=0 current=tests/ext/test_callbackqueryhandler.py
+[2026-11-22T07:19:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=4 resolved=590 errors=0 current=tests/_passport/test_passportelementerrordatafield.py
+[2026-11-22T07:23:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=6 resolved=1005 errors=0 current=tests/test_chatmemberupdated.py
+[2026-11-22T07:24:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.7 files_done=8 resolved=1066 errors=0 current=src/telegram/_chatboost.py
+[2026-11-22T07:25:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=9 resolved=1122 errors=0 current=tests/test_chatfullinfo.py
+[2026-11-22T07:33:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.6 files_done=11 resolved=1433 errors=0 current=tests/test_message.py
+[2026-11-22T07:39:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.1 files_done=12 resolved=1709 errors=0 current=examples/arbitrarycallbackdatabot.py
+[2026-11-22T07:51:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.4 files_done=14 resolved=2319 errors=0 current=tests/test_telegramobject.py
+[2026-11-22T07:51:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.1 files_done=15 resolved=2415 errors=0 current=tests/test_webhookinfo.py
+[2026-11-22T07:56:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.4 files_done=17 resolved=3032 errors=0 current=src/telegram/_inputchecklist.py
+[2026-11-22T07:56:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.9 files_done=19 resolved=3078 errors=0 current=tests/test_forum.py
+[2026-11-22T07:57:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.1 files_done=21 resolved=3292 errors=0 current=tests/ext/test_inlinequeryhandler.py
+[2026-11-22T07:58:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.8 files_done=24 resolved=3379 errors=0 current=tests/ext/test_callbackdatacache.py
+[2026-11-22T08:06:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.4 files_done=26 resolved=3894 errors=0 current=tests/test_business_classes.py
+[2026-11-22T08:06:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.2 files_done=28 resolved=4088 errors=0 current=src/telegram/ext/_utils/networkloop.py
+[2026-11-22T08:08:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.6 files_done=31 resolved=4210 errors=0 current=src/telegram/_bot.py
+[2026-11-22T08:16:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.6 files_done=32 resolved=4612 errors=0 current=tests/ext/test_updater.py
+[2026-11-22T08:17:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=62.9 files_done=33 resolved=4804 errors=0 current=tests/test_writeaccessallowed.py
+[2026-11-22T08:26:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=71.5 files_done=35 resolved=5200 errors=0 current=tests/_inline/test_inlinequeryresultcacheddocument.py
+[2026-11-22T08:27:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=72.7 files_done=38 resolved=5274 errors=0 current=tests/_files/test_voice.py
+[2026-11-22T08:28:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.4 files_done=40 resolved=5378 errors=0 current=tests/_inline/test_inlinequeryresultcontact.py
+[2026-11-22T08:28:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.0 files_done=42 resolved=5432 errors=0 current=src/telegram/request/_baserequest.py
+[2026-11-22T08:29:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.6 files_done=43 resolved=5456 errors=0 current=tests/test_uniquegift.py
+[2026-11-22T08:30:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=75.3 files_done=46 resolved=5615 errors=0 current=docs/auxil/admonition_inserter.py
+[2026-11-22T08:30:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=76.1 files_done=47 resolved=5735 errors=0 current=tests/ext/test_applicationbuilder.py
+[2026-11-22T08:31:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=76.7 files_done=48 resolved=5810 errors=0 current=tests/_payment/stars/test_transactionpartner.py
+[2026-11-22T08:34:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=79.9 files_done=50 resolved=6200 errors=0 current=tests/_files/test_contact.py
+[2026-11-22T08:37:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=82.4 files_done=54 resolved=6399 errors=0 current=src/telegram/_files/videoquality.py
+[2026-11-22T08:37:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=82.9 files_done=57 resolved=6430 errors=0 current=examples/customwebhookbot/flaskbot.py
+[2026-11-22T08:38:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=83.5 files_done=59 resolved=6575 errors=0 current=tests/_files/test_video.py
+[2026-11-22T08:39:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.3 files_done=61 resolved=6668 errors=0 current=tests/ext/_utils/test_stack.py
+[2026-11-22T08:39:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.9 files_done=64 resolved=6789 errors=0 current=src/telegram/constants.py
+[2026-11-22T08:40:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=85.9 files_done=65 resolved=6838 errors=0 current=tests/ext/test_messagereactionhandler.py
+[2026-11-22T08:45:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=90.3 files_done=69 resolved=7040 errors=0 current=tests/ext/test_paidmediapurchasedhandler.py
+[2026-11-22T08:45:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=91.0 files_done=72 resolved=7296 errors=0 current=src/telegram/_payment/shippingquery.py
+[2026-11-22T08:46:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=91.7 files_done=74 resolved=7416 errors=0 current=tests/ext/test_chatboosthandler.py
+[2026-11-22T08:47:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=92.7 files_done=77 resolved=7492 errors=0 current=tests/test_callbackquery.py
+[2026-11-22T08:49:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=94.7 files_done=78 resolved=7593 errors=0 current=src/telegram/_chatinvitelink.py
+[2026-11-22T08:49:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=95.3 files_done=80 resolved=7635 errors=0 current=src/telegram/helpers.py
+[2026-11-22T08:50:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=95.8 files_done=86 resolved=7758 errors=0 current=tests/test_botname.py
+[2026-11-22T08:51:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=96.3 files_done=89 resolved=7882 errors=0 current=tests/test_storyarea.py
+[2026-11-22T08:56:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=101.6 files_done=91 resolved=8193 errors=0 current=tests/test_poll.py
+[2026-11-22T08:56:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=102.2 files_done=93 resolved=8364 errors=0 current=src/telegram/_poll.py
+[2026-11-22T08:57:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=103.2 files_done=94 resolved=8414 errors=0 current=tests/test_business_methods.py
+[2026-11-22T08:58:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=103.9 files_done=95 resolved=8478 errors=0 current=src/telegram/request/_httpxrequest.py
+[2026-11-22T08:59:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=105.2 files_done=98 resolved=8577 errors=0 current=tests/auxil/string_manipulation.py
+[2026-11-22T09:00:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=105.7 files_done=100 resolved=8690 errors=0 current=tests/_files/test_file.py
+[2026-11-22T09:01:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=106.3 files_done=101 resolved=8763 errors=0 current=src/telegram/ext/_updater.py
+[2026-11-22T09:01:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=107.2 files_done=102 resolved=8847 errors=0 current=tests/_files/test_inputmedia.py
+[2026-11-22T09:03:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=108.6 files_done=103 resolved=9064 errors=0 current=src/telegram/_telegramobject.py
+[2026-11-22T09:04:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=109.3 files_done=104 resolved=9176 errors=0 current=tests/ext/test_basepersistence.py
+[2026-11-22T09:07:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.5 files_done=105 resolved=9392 errors=0 current=tests/ext/test_jobqueue.py
+[2026-11-22T09:09:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=114.7 files_done=107 resolved=9582 errors=0 current=tests/test_official/scraper.py
+[2026-11-22T09:10:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=115.6 files_done=109 resolved=9635 errors=0 current=tests/ext/test_ratelimiter.py
+[2026-11-22T09:11:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.4 files_done=111 resolved=9816 errors=0 current=tests/_inline/test_inlinequeryresultlocation.py
+[2026-11-22T09:11:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=117.0 files_done=117 resolved=9980 errors=0 current=tests/test_reaction.py
+[2026-11-22T09:12:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=117.9 files_done=120 resolved=10074 errors=0 current=src/telegram/_utils/datetime.py
+[2026-11-22T09:13:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=118.5 files_done=124 resolved=10193 errors=0 current=tests/_payment/test_invoice.py
+[2026-11-22T09:13:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.3 files_done=128 resolved=10259 errors=0 current=src/telegram/_inline/inlinequeryresultvideo.py
+[2026-11-22T09:14:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.9 files_done=132 resolved=10381 errors=0 current=tests/_passport/test_passportelementerrorfiles.py
+[2026-11-22T09:16:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=121.5 files_done=135 resolved=10538 errors=0 current=tests/_files/test_videonote.py
+[2026-11-22T09:16:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=122.0 files_done=137 resolved=10614 errors=0 current=tests/test_chatowner.py
+[2026-11-22T09:17:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=122.5 files_done=142 resolved=10711 errors=0 current=tests/_inline/test_inlinequery.py
+[2026-11-22T09:18:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.6 files_done=146 resolved=10851 errors=0 current=src/telegram/_forumtopic.py
+[2026-11-22T09:18:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=124.1 files_done=151 resolved=10933 errors=0 current=tests/test_giveaway.py
+[2026-11-22T09:19:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=124.7 files_done=157 resolved=11066 errors=0 current=src/telegram/_chatowner.py
+[2026-11-22T09:19:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=125.2 files_done=163 resolved=11167 errors=0 current=src/telegram/_passport/passportelementerrors.py
+[2026-11-22T09:20:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=125.8 files_done=164 resolved=11202 errors=0 current=tests/_inline/test_inlinekeyboardmarkup.py
+[2026-11-22T09:21:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=126.5 files_done=167 resolved=11295 errors=0 current=tests/test_checklists.py
+[2026-11-22T09:21:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.1 files_done=169 resolved=11407 errors=0 current=tests/test_chatpermissions.py
+[2026-11-22T09:22:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.9 files_done=174 resolved=11514 errors=0 current=src/telegram/_passport/data.py
+[2026-11-22T09:23:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=128.8 files_done=179 resolved=11603 errors=0 current=src/telegram/_suggestedpost.py
+[2026-11-22T09:24:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=130.0 files_done=180 resolved=11665 errors=0 current=src/telegram/_messageentity.py
+[2026-11-22T09:25:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=130.5 files_done=184 resolved=11721 errors=0 current=tests/_files/test_inputprofilephoto.py
+[2026-11-22T09:25:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=131.1 files_done=189 resolved=11815 errors=0 current=src/telegram/_inline/inlinequeryresultcachedphoto.py
+[2026-11-22T09:26:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=132.1 files_done=191 resolved=11880 errors=0 current=tests/test_keyboardbuttonrequest.py
+[2026-11-22T09:29:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=134.6 files_done=197 resolved=12131 errors=0 current=src/telegram/_story.py
+[2026-11-22T09:29:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=135.1 files_done=200 resolved=12181 errors=0 current=examples/customwebhookbot/starlettebot.py
+[2026-11-22T09:30:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=135.9 files_done=203 resolved=12246 errors=0 current=tests/auxil/build_messages.py
+[2026-11-22T09:31:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=136.4 files_done=206 resolved=12326 errors=0 current=tests/_inline/test_inputinvoicemessagecontent.py
+[2026-11-22T09:31:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=137.1 files_done=212 resolved=12441 errors=0 current=tests/_payment/test_refundedpayment.py
+[2026-11-22T09:32:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=137.6 files_done=214 resolved=12489 errors=0 current=tests/_inline/test_inlinequeryresultvoice.py
+[2026-11-22T09:33:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=138.3 files_done=219 resolved=12609 errors=0 current=tests/_files/test_animation.py
+[2026-11-22T09:34:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=139.7 files_done=223 resolved=12730 errors=0 current=tests/test_gifts.py
+[2026-11-22T09:35:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.3 files_done=226 resolved=12819 errors=0 current=src/telegram/_botdescription.py
+[2026-11-22T09:35:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.8 files_done=231 resolved=12870 errors=0 current=src/telegram/_inline/inlinekeyboardmarkup.py
+[2026-11-22T09:36:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.4 files_done=233 resolved=12902 errors=0 current=src/telegram/_ownedgift.py
+[2026-11-22T09:37:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=142.3 files_done=234 resolved=12944 errors=0 current=src/telegram/_files/video.py
+[2026-11-22T09:37:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=142.8 files_done=239 resolved=13000 errors=0 current=tests/_inline/test_inlinequeryresultphoto.py
+[2026-11-22T09:38:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=143.5 files_done=246 resolved=13134 errors=0 current=tests/_files/test_inputfile.py
+[2026-11-22T09:39:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=144.3 files_done=247 resolved=13199 errors=0 current=changes/config.py
+[2026-11-22T09:39:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=145.0 files_done=251 resolved=13267 errors=0 current=tests/_inline/test_inlinequeryresultcachedgif.py
+[2026-11-22T09:41:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=146.5 files_done=253 resolved=13337 errors=0 current=src/telegram/_reply.py
+[2026-11-22T09:42:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.5 files_done=254 resolved=13384 errors=0 current=tests/ext/_utils/test_networkloop.py
+[2026-11-22T09:42:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=148.1 files_done=258 resolved=13415 errors=0 current=tests/test_version.py
+[2026-11-22T09:43:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=148.6 files_done=261 resolved=13495 errors=0 current=src/telegram/_utils/defaultvalue.py
+[2026-11-22T09:44:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.9 files_done=263 resolved=13627 errors=0 current=tests/_passport/test_passportelementerrorfrontside.py
+[2026-11-22T09:47:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.9 files_done=267 resolved=13777 errors=0 current=tests/auxil/envvars.py
+[2026-11-22T09:48:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=153.8 files_done=269 resolved=13827 errors=0 current=examples/chatmemberbot.py
+[2026-11-22T09:49:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=154.5 files_done=273 resolved=13899 errors=0 current=tests/_payment/stars/test_affiliateinfo.py
+[2026-11-22T09:49:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.0 files_done=280 resolved=14000 errors=0 current=src/telegram/_gifts.py
+[2026-11-22T09:50:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.7 files_done=281 resolved=14036 errors=0 current=src/telegram/_chatjoinrequest.py
+[2026-11-22T09:51:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=156.3 files_done=283 resolved=14078 errors=0 current=src/telegram/_utils/files.py
+[2026-11-22T09:52:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=157.7 files_done=287 resolved=14185 errors=0 current=tests/test_directmessagestopic.py
+[2026-11-22T09:52:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.2 files_done=297 resolved=14314 errors=0 current=src/telegram/_files/sticker.py
+[2026-11-22T09:53:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.8 files_done=299 resolved=14342 errors=0 current=tests/test_chatlocation.py
+[2026-11-22T09:54:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=159.3 files_done=303 resolved=14392 errors=0 current=src/telegram/_chatfullinfo.py
+[2026-11-22T09:54:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=160.0 files_done=304 resolved=14421 errors=0 current=src/telegram/_webappinfo.py
+[2026-11-22T09:55:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=160.6 files_done=309 resolved=14463 errors=0 current=tests/auxil/pytest_classes.py
+[2026-11-22T09:56:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=161.5 files_done=312 resolved=14523 errors=0 current=src/telegram/_payment/invoice.py
+[2026-11-22T09:56:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=162.1 files_done=319 resolved=14664 errors=0 current=tests/test_enum_types.py
+[2026-11-22T09:57:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=162.9 files_done=321 resolved=14729 errors=0 current=src/telegram/ext/_utils/stack.py
+[2026-11-22T09:58:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=163.9 files_done=325 resolved=14800 errors=0 current=src/telegram/_inline/inputlocationmessagecontent.py
+[2026-11-22T09:59:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=164.5 files_done=329 resolved=14834 errors=0 current=src/telegram/_replykeyboardmarkup.py
+[2026-11-22T10:00:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=165.3 files_done=336 resolved=14908 errors=0 current=tests/_inline/test_inputlocationmessagecontent.py
+[2026-11-22T10:00:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=165.9 files_done=343 resolved=15001 errors=0 current=tests/_passport/test_encryptedpassportelement.py
+[2026-11-22T10:01:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=166.4 files_done=350 resolved=15091 errors=0 current=src/telegram/_userprofileaudios.py
+[2026-11-22T10:01:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=167.0 files_done=356 resolved=15133 errors=0 current=tests/test_webappinfo.py
+[2026-11-22T10:02:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=167.8 files_done=361 resolved=15226 errors=0 current=src/telegram/_inline/inlinequeryresultphoto.py
+[2026-11-22T10:03:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=168.4 files_done=369 resolved=15289 errors=0 current=src/telegram/_chatmemberupdated.py
+[2026-11-22T10:03:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=169.0 files_done=374 resolved=15347 errors=0 current=src/telegram/_messageautodeletetimerchanged.py
+[2026-11-22T10:04:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=169.5 files_done=377 resolved=15373 errors=0 current=src/telegram/ext/_callbackcontext.py
+[2026-11-22T10:04:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=170.1 files_done=381 resolved=15414 errors=0 current=src/telegram/_inline/inlinequeryresultmpeg4gif.py
+[2026-11-22T10:05:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=170.6 files_done=388 resolved=15460 errors=0 current=tests/_passport/test_passportelementerrorreverseside.py
+[2026-11-22T10:05:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=171.2 files_done=396 resolved=15523 errors=0 current=src/telegram/error.py
+[2026-11-22T10:06:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=171.9 files_done=403 resolved=15611 errors=0 current=src/telegram/ext/_handlers/precheckoutqueryhandler.py
+[2026-11-22T10:07:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=172.8 files_done=410 resolved=15668 errors=0 current=src/telegram/_inline/inlinequeryresultgif.py
+[2026-11-22T10:08:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=173.3 files_done=415 resolved=15714 errors=0 current=src/telegram/_utils/repr.py
+[2026-11-22T10:08:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=173.9 files_done=424 resolved=15750 errors=0 current=src/telegram/_files/inputfile.py
+[2026-11-22T10:09:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=174.4 files_done=435 resolved=15810 errors=0 current=src/telegram/ext/_utils/_update_parsing.py
+[2026-11-22T10:09:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=175.0 files_done=443 resolved=15859 errors=0 current=src/telegram/_inline/inlinequeryresultarticle.py
+[2026-11-22T10:10:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=175.5 files_done=453 resolved=15904 errors=0 current=src/telegram/ext/_utils/asyncio.py
+[2026-11-22T10:10:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=176.0 files_done=463 resolved=15943 errors=0 current=src/telegram/ext/_handlers/pollanswerhandler.py
+[2026-11-22T10:10:56Z] [iter=1] Target type resolved target_type=call_site resolved=15955 errors=0 secs=10442 mem_mb=1173 MB
+[2026-11-22T10:10:56Z] [iter=1] Resolving target type target_type=import_statement count=3174
+[2026-11-22T10:11:15Z] [iter=1] Target type resolved target_type=import_statement resolved=2357 errors=0 secs=19 mem_mb=1181 MB
+[2026-11-22T10:11:15Z] [iter=1] Resolving target type target_type=extends_clause count=1016
+[2026-11-22T10:11:15Z] [iter=1] HEARTBEAT target_type=extends_clause elapsed_min=176.5 files_done=0 resolved=0 errors=0 current=src/telegram/constants.py
+[2026-11-22T10:11:25Z] [iter=1] Target type resolved target_type=extends_clause resolved=939 errors=0 secs=11 mem_mb=1181 MB
+[2026-11-22T12:24:42Z] [iter=1] Step 5: Writing final enrichment file triples=305260
+[2026-11-22T12:24:45Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/5a41d2ba85bd10bdb2b2c1047758a317eb091e5e.nq.gz size_kb=7782
+[2026-11-22T12:24:45Z] [iter=1] PHASE END: enrich elapsed_s=18601 elapsed_min=310.0 total_triples=305260

@@ -1847,6 +1847,91 @@
       ],
       "ast": [
         "aggregate/ast/5a41d2ba85bd10bdb2b2c1047758a317eb091e5e/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/5a41d2ba85bd10bdb2b2c1047758a317eb091e5e.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "httpx",
+          "ecosystem": "PYPI",
+          "version": "0.27",
+          "githubOrg": "encode",
+          "githubRepo": "httpx",
+          "githubUrl": "https://github.com/encode/httpx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "httpcore",
+          "ecosystem": "PYPI",
+          "version": "1.0.9",
+          "githubOrg": "encode",
+          "githubRepo": "httpcore",
+          "githubCommit": "98209758cc14e1a5f966fe1dfdc1064b94055d8c",
+          "githubTag": "1.0.9",
+          "githubUrl": "https://github.com/encode/httpcore",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "cachetools",
+          "ecosystem": "PYPI",
+          "version": "7.0.0",
+          "githubOrg": "tkem",
+          "githubRepo": "cachetools",
+          "githubCommit": "28bbcba53fbd939858ed02f52579e362e3b4fce9",
+          "githubTag": "v7.0.0",
+          "githubUrl": "https://github.com/tkem/cachetools",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "apscheduler",
+          "ecosystem": "PYPI",
+          "version": "3.10.4",
+          "githubOrg": "agronholm",
+          "githubRepo": "apscheduler",
+          "githubCommit": "2cd37918351c266ff4149abccc40635b79a80477",
+          "githubTag": "3.10.4",
+          "githubUrl": "https://github.com/agronholm/apscheduler",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "cryptography",
+          "ecosystem": "PYPI",
+          "version": "3.4",
+          "githubOrg": "pyca",
+          "githubRepo": "cryptography",
+          "githubCommit": "2c11ad53c07179e03ea2f60813cb52d83f766292",
+          "githubTag": "3.4",
+          "githubUrl": "https://github.com/pyca/cryptography",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "cffi",
+          "ecosystem": "PYPI",
+          "version": "1.17.0",
+          "githubOrg": "python-cffi",
+          "githubRepo": "cffi",
+          "githubCommit": "74731f941cf464ad3be5e13708a0a0183b32b3b7",
+          "githubTag": "v1.17.0",
+          "githubUrl": "https://github.com/python-cffi/cffi",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "aiolimiter",
+          "ecosystem": "PYPI",
+          "version": "1.1",
+          "githubOrg": "mjpieters",
+          "githubRepo": "aiolimiter",
+          "githubUrl": "https://github.com/mjpieters/aiolimiter",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "tornado",
+          "ecosystem": "PYPI",
+          "version": "6.5",
+          "githubOrg": "tornadoweb",
+          "githubRepo": "tornado",
+          "githubUrl": "https://github.com/tornadoweb/tornado",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
